@@ -12,6 +12,7 @@ document.getElementById('restartBtn').onclick = function(e) {
   jeu.niveauActuel = 0; 
   jeu.enPause = false; 
   jeu.score = 0; 
+  document.getElementById('scoreSpan').innerHTML = 0; 
   jeu.chargement('restart'); 
   e.target.style.visibility = 'hidden'; 
   document.getElementById('recruitBtn').style.visibility = 'hidden'; 
@@ -955,6 +956,7 @@ class Labirynthe {
         case 'point':
           this.terrain.geometrie[Math.floor(pos.y / this.taille)][Math.floor(pos.x / this.taille)] = 1; 
           this.score += 1; 
+          document.getElementById('scoreSpan').innerHTML = this.score; 
           break; 
         default:
           console.log('aucune action reconnue');   // 没有公认的行动
