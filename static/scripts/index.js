@@ -20,7 +20,7 @@ document.getElementById('restartBtn').onclick = function(e) {
 
 document.getElementById('recruitBtn').onclick = function(e) {
   e.preventDefault(); 
-  window.location.href = 'https://mp.weixin.qq.com/s/oxQITajpb_rVDOI29gxr1Q'; 
+  window.location.href = 'https://mp.weixin.qq.com/s?__biz=MjM5MzUzMzM5OQ==&mid=2651077232&idx=1&sn=a013bcb662b1547d5f4ff478d5adb2f7&chksm=bd6506c88a128fdeda889ca70a396aaa01828167a02302191846ea89dd37d49a4f9ff741cc64&mpshare=1&scene=1&srcid=0916236GaeiG231Z0TzA7kKE#rd'; 
 }
 
 
